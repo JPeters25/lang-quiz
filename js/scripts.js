@@ -1,23 +1,25 @@
+
 $(document).ready(function(){
   $("form#quiz").submit(function(event) {
     event.preventDefault();
-    const inputColor = $("#color").val();
-    const inputAnimal = $("#animal").val();
-    const inputMusic = $("#music").val();
-    const inputFood = $("#food").val();
-    const inputPhone = $("#phone").val();
+const color = $("#color").val();
+const animal = $("#animal").val();
+const music = $("#music").val();
+const food = $("#food").val();
+const phone = $("#phone").val();
+   
+if (color === "Red" || "Blue" && animal === "Dog" && music === "Rock" && food === "Burgers" && phone === "Apple") {
+  $("#ruby").show();
+  $("#ruby").text();
+} else if (color === "Blue" && animal === "Cat" || "Bird" && music === "Pop" && food === "Tacos" || "Burgers" && phone === "Samsung") {
  
-     if (inputColor === "Red" || "Blue" && inputAnimal === "Dog" && inputMusic === "Rock" && inputFood === "Burgers" && inputPhone === "Apple") {
-    $('#ruby').text();
-    $('#ruby').show();
-      } else if (inputColor === "Blue" && inputAnimal === "Cat" || "Bird" && inputMusic === "Pop" && inputFood === "Tacos" || "Burgers" &&inputPhone === "Samsung") {
-    $('#cSharp').text();
-    $('#cSharp').show();
-      } else if
-        (inputColor === "Green" && inputAnimal === "Bird" && inputMusic === "Broadway" || "Rock" && inputFood === "Sushi" && inputPhone === "Other"){
-    $('#javaScript').text();       
-    $('#javaScript').show();
-
-        }  
-      }) 
+  $("#cSharp").show();
+  $("#cSharp").text();
+} else if (color === "Green" && animal === "Bird" && music === "Broadway" || "Rock" && food === "Sushi" && phone === "Other"){
+  
+  $("#javaScript").show(); 
+  $("#javaScript").text();
+    
+    }  
+  }) 
 });
