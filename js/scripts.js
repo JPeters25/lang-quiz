@@ -8,22 +8,21 @@ $(document).ready(function(){
     const inputPhone = $("#phone").val();
     
     
-if (inputColor === "Red" && inputAnimal === "Dog" && inputMusic === "Rock" && inputFood === "Burgers" && inputPhone === "Apple") {
-  $("#ruby").show();
-  $("#ruby").text();
-  $("#cSharp").hide();
-  $("#javaScript").hide();
-} else if (inputColor === "Blue" && inputAnimal === "Cat" && inputMusic === "Pop" && inputFood === "Tacos" && inputPhone === "Samsung") {
-  $("#cSharp").show();
-  $("#cSharp").text();
-  $("#ruby").hide();
-  $("#javaScript").hide();
-} else if (inputColor === "Green" && inputAnimal === "Bird" && inputMusic === "Broadway" && inputFood  === "Sushi" && inputPhone === "Other"){
-  $("#javaScript").show(); 
-  $("#javaScript").text();
-  $("#ruby").hide();
-  $("#cSharp").hide();
-
+    if (inputColor === "Red" && inputAnimal === "Dog" && inputMusic === "Rock" && inputFood === "Burgers" && inputPhone === "Apple") {
+      $("#ruby").show();
+      $("#cSharp").hide();
+      $("#javaScript").hide();
+    } else if (inputColor === "Blue" && inputAnimal === "Cat" && inputMusic === "Pop" && inputFood === "Tacos" && inputPhone === "Samsung") {
+      $("#cSharp").show();
+      $("#cSharp").text();
+      $("#ruby").hide();
+      $("#javaScript").hide();
+    } else if (inputColor === "Green" && inputAnimal === "Bird" && inputMusic === "Broadway" && inputFood  === "Sushi" && inputPhone === "Other") {
+      $("#javaScript").show();
+      $("#javaScript").text();
+      $("#ruby").hide();
+      $("#cSharp").hide();
     }
+    $(".answer").show()
   });
 });
