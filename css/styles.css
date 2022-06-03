@@ -5,7 +5,9 @@
   margin-bottom: 40px;
   padding: 1%;
 }
-
+.nameblock{
+  width: 30%;
+}
 .answer {
   border: 3px solid black;
   text-align: center;

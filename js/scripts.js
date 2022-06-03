@@ -6,10 +6,12 @@ $(document).ready(function(){
     const inputMusic = $("#music").val();
     const inputFood = $("#food").val();
     const inputPhone = $("#phone").val();
+    const inputFirstName = $("input#firstName").val();
     
     
     if (inputColor === "Red" && inputAnimal === "Dog" && inputMusic === "Rock" && inputFood === "Burgers" && inputPhone === "Apple") {
       $("#ruby").show();
+      $("#ruby").text();
       $("#cSharp").hide();
       $("#javaScript").hide();
     } else if (inputColor === "Blue" && inputAnimal === "Cat" && inputMusic === "Pop" && inputFood === "Tacos" && inputPhone === "Samsung") {
@@ -24,5 +26,6 @@ $(document).ready(function(){
       $("#cSharp").hide();
     }
     $(".answer").show()
+    $(".firstName").text(inputFirstName);
   });
 });

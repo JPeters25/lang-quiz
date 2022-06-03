@@ -15,6 +15,10 @@
     <img src="img/lang.jpeg" width="40%"> 
     </div>
     <form id="quiz">
+      <div class="nameblock">
+        <label for="firstName">First Name: </label>
+        <input id="firstName" class="form-control" type="text">
+      </div>
       <div class="favoriteColor">
       <label for="favoriteColor">What's your favorite color?</label>
       <select class="form-control" id="color">
@@ -61,7 +65,7 @@
     <div class="answer">
       <div id="ruby">
         <img src="img/ruby.jpeg" width="20%" alt="Ruby Language logo">
-        <p>Based off your answers. You would enjoy learning Ruby!</p>
+        <p>Hey <span class="firstName"></span>  great news! Based off your answers. You would enjoy learning Ruby!</p>
       </div>
       <div id="cSharp">
         <img src="img/Csharp.jpeg" width="20%">
@@ -71,6 +75,6 @@
         <img src="img/JavaScript.jpeg" width="20%">
         <p>Based off your answers. You would enjoy learning JavaScript!</p>
       </div>
-  </div>
+    </div>
 </body>
 </html>
