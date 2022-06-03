@@ -8,6 +8,7 @@
 .nameblock{
   width: 30%;
 }
+
 .answer {
   border: 3px solid black;
   text-align: center;
@@ -21,6 +22,10 @@
   margin-left: 50%;
   background-color: teal;
   color: white
+}
+
+.link {
+  font-size: 25px;
 }
 
 #ruby {
@@ -47,6 +52,18 @@
   color: yellow;
   font-size: 30px;
   font-weight: bolder;
+}
+
+a:link {
+  color:white;
+}
+
+a:visited{
+  color:blueviolet;
+}
+
+a:hover{
+  color: grey
 }
 
 body {
