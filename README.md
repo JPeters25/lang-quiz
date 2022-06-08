@@ -19,8 +19,8 @@ _This browser page allows user to input their name and answer question about the
 
 ## Setup/Installation Requirements
 
-* Must have bootstrap in css directory
-* Must have JQuery-3.6.0 in js directory
+* 1. Clone repository from GitHub
+* 2. Open index.html file
 
 ## Known Bugs
 
